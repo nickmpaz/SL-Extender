@@ -1,0 +1,82 @@
+html {
+    max-height: 600px;
+    overflow-y: hidden;
+}
+main {
+    max-height: 500px;
+    overflow-y: auto;
+    margin-block-end: .5em;
+}
+body {
+    background-color: lightblue;
+    min-width: 400px;
+}
+  
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: lightblue;
+    font-size: .8em;
+    margin-block-start: 0em;
+
+}
+
+div {
+    color: lightblue;
+    text-align: center;
+    font-weight: bold;
+    
+}
+  
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+    color: gray;
+}
+
+button {
+
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+button:hover{
+
+    background-color: gray;
+}
+  
+.conditions-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+    background-color: white;
+}
+
+.name-container {
+
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-gap: 10px;
+    
+    
+
+}
+
+.GOOD {background-color: #ffbe00}
+
+.FAIR {background-color: #23d737}
+
+.POOR {background-color: #42a5fc}
+

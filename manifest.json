@@ -1,0 +1,27 @@
+{
+    "name": "SL Spot Check",
+    "version": "0.0.1",
+    "description": "Adds a toolbar icon that shows you the surf conditions at your favorite surf spots.",
+    "manifest_version": 2,
+
+    "browser_action": {
+        
+        "default_title": "Is it firing?",
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "scripts": [
+          "background.js"
+        ],
+        "persistent": false
+    },
+
+    "permissions": [
+        "https://www.surfline.com/*",
+        "http://www.surfline.com/*",
+        "activeTab",
+        "storage"
+    ]
+
+}
