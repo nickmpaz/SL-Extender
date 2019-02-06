@@ -345,6 +345,7 @@ function getConditions(DOM, i, sURL) {
 
     windString = windString1 + windString2;
     windString = windString.replace('<sup>KTS</sup>', ' kts ');
+    windString = windString.replace('<sup>MPH</sup>', ' mph ');
 
     //=========================================================================================
 

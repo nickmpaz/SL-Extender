@@ -1,6 +1,6 @@
 {
-    "name": "SL Spot Check",
-    "version": "0.0.1",
+    "name": "SL Extender",
+    "version": "0.0.2",
     "description": "Adds a toolbar icon that shows you the surf conditions at your favorite surf spots.",
     "manifest_version": 2,
 
