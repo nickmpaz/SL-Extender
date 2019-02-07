@@ -34,5 +34,6 @@ CHANGELOG:
      0.0.2 - Fixed a bug with displaying wind info in MPH.
      0.0.3 - Changed name from 'SL Spot Check' to 'SL Extender'.
      0.0.4 - Fixed a bug that caused sync storage to revert to defaults. 
+     0.0.5 - Fixed popup window sizing.
 
 =====================================================================================
