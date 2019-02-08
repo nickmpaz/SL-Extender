@@ -3,7 +3,7 @@ html {
     overflow-y: hidden;
 }
 main {
-    max-height: 500px;
+    max-height: 450px;
     overflow-y: auto;
     margin-block-end: .5em;
 }
@@ -45,6 +45,12 @@ p {
     color: gray;
 }
 
+p1 {
+
+    color: white;
+
+}
+
 button {
 
     vertical-align: middle;
@@ -70,9 +76,17 @@ button:hover{
     grid-template-columns: 3fr 2fr 1fr;
     grid-gap: 10px;
     
-    
-
 }
+
+.bot-container {
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". .";
+    color: white;
+
+  }
 
 .GOOD {background-color: #ffbe00}
 
